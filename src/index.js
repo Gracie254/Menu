@@ -1,8 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MyMenu from './dishes/menudisplay'
 import reportWebVitals from './reportWebVitals';
+
+function App() {
+  
+   
+  return (
+    <div className="App">
+      <h1>Our Menu</h1>
+      <div className="section">
+        <MyMenu />
+    </div>
+      
+        
+    </div>
+  );
+}
 
 ReactDOM.render(
   <React.StrictMode>
